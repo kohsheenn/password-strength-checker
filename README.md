@@ -49,6 +49,6 @@ https://kohsheenn.github.io/password-strength-checker/
 
 ## Run Locally:
 
-1. Clone the repository
+Clone the repository
    ```bash
    git clone https://github.com/kohsheenn/password-strength-checker.git
