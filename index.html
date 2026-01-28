@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Password Strengthner</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="box">
+        <div class="para">--- PASSWORD ---</div>
+        <div class="pwd-field">
+            <input type="password" id="password" placeholder="Enter the password">
+            <button type="button" id="toggle">👁️</button>
+        </div>
+        <span class="generate-text">
+        <a href="#" id="generateButton">Generate a password</a></span>
+
+        
+        <span>Password strength: <div class="strength-text"></div></span>
+
+        <div class="strength-wrapper">
+            <div class="strength-bars">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+        
+
+        
+        <div class="rules">
+            <strong>Minimum requirements:</strong>
+            <ul>
+                <li id="length" class="invalid">minimum 8 character length</li>
+                <li id="number" class="invalid">has number</li>
+                <li id="special" class="invalid">has special character</li>
+                <li id="upper" class="invalid">has uppercase</li>
+                <li id="lower" class="invalid">has lowercase</li>
+            </ul>
+        </div>
+    </div>
+<script src="script.js"></script>
+</body>
+</html>
